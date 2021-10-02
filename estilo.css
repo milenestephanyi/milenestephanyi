@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+justify-content: space-between;}
+
+:root {
+    --cor-cinza-medio:#CDCDCD;
+    --cor-cinza-maisescuro:#C4C4C4;
+    --preto:#000000;
+    --verde-claro:#90C26B;
+    --verde-escuro:#55733F;
+    --verde-acizentado:#4A6144;
+    --cor-fonte-branca:#FFFFFF;
+    --fonte: 'Yanone Kaffeesatz' ,'Roboto'}
+
+body {
+font-family: var(--fonte);
+color: #000000;
+font-size: 1.6rem;
+}
+header{
+background: #CDCDCD;
+height: 166px;
+}
+header .conteiner{
+display: flex;
+width: 100px; 
+height: 100px;
+justify-content: space-between;
+align-items: center;
+}
+
+header .whatzap{
+    display: flex;
+    width: 100px; 
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .facebok{
+    display: grid
+    grid-template-columns:
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100vw;
+}
+
+header .twiter{
+    display: flex;
+    width: 100px; 
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+
+header .youtube{
+    display: flex;
+    width: 100px; 
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+}
+#futebol{text-align-last: right;}
+
+
